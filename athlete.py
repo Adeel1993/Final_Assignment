@@ -7,9 +7,7 @@ Created on Thu Feb  9 20:31:28 2023
 
 import streamlit as st
 import pandas as pd
-import numpy as np
-import seaborn as sns
-import plotly.express as px 
+import seaborn as sns 
 import matplotlib.pyplot as plt
 
 
@@ -20,7 +18,7 @@ st.title('Olympic History Dashboard')
 #st.header("Olympic History Dashboard")
 st.subheader("Muhammad Adeel")
 
-athlete = pd.read_csv(r"C:\Users\Adeel\Desktop\Karachi AI-8\athlete_events.csv")
+athlete = pd.read_csv("athlete_events.csv")
 print(athlete)
 
 
